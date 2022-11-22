@@ -1,0 +1,64 @@
+.product
+{
+    /* position: relative;  */
+    margin-top: 20px;
+}
+.wrapper {
+    float: left;
+    /* position: fixed; */
+    width: 200px;
+    height: 1000px;
+    background-color: rgb(255, 234, 211);
+}
+
+#sidebar {
+    display: block;
+    border: 3px;
+    padding-top: 0px;
+}
+
+#sidebar .active {
+    border-radius: 5px;
+}
+#sidebar .active a{
+    border-radius: 5px;
+    display: block;
+    width: 200px;
+    font-size: large;
+    font-weight: bold;
+}
+#sidebar .active ul{
+    border-radius: 5px;
+    text-align: center;
+}
+#sidebar .active ul :hover
+{
+    transition: 0.3s;
+}
+#sidebar .active ul .ft:hover
+{
+    background-color: rgb(243, 114, 40);
+
+    transition: 0.3s;
+}
+#sidebar .active ul .dr
+{
+    font-size:medium;
+    transition: 0.3s;
+}
+#sidebar .active ul .dr:hover
+{
+    background-color: rgb(243, 114, 40);
+    transition: 0.3s;
+}
+#sidebar .active a  {
+    cursor: pointer;
+}
+#sidebar .active a :hover {
+    display: block;
+    color: red;
+}
+.clear
+{
+    clear: both;
+}
